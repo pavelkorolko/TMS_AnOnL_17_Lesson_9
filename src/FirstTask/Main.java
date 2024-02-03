@@ -1,9 +1,11 @@
-import Documents.EmployeeContract;
-import Exceptions.ABCSequenceException;
-import Exceptions.EndingException;
-import Exceptions.FivesSequenceException;
-import Services.Printer;
-import Services.Register;
+package FirstTask;
+
+import FirstTask.Documents.EmployeeContract;
+import FirstTask.Exceptions.ABCSequenceException;
+import FirstTask.Exceptions.EndingException;
+import FirstTask.Exceptions.FivesSequenceException;
+import FirstTask.Services.Printer;
+import FirstTask.Services.Register;
 
 import java.util.Date;
 

@@ -1,6 +1,6 @@
-package Interfaces;
+package FirstTask.Interfaces;
 
-import Documents.Document;
+import FirstTask.Documents.Document;
 
 public interface IRegister {
     void saveDocument(Document document) throws Exception;

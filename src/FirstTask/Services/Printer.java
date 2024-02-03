@@ -1,10 +1,10 @@
-package Services;
+package FirstTask.Services;
 
-import Documents.Document;
-import Documents.EmployeeContract;
-import Documents.Invoice;
-import Documents.SupplyGoodsDoc;
-import Interfaces.IPrinterable;
+import FirstTask.Documents.Document;
+import FirstTask.Documents.EmployeeContract;
+import FirstTask.Documents.Invoice;
+import FirstTask.Documents.SupplyGoodsDoc;
+import FirstTask.Interfaces.IPrinterable;
 
 public class Printer implements IPrinterable {
 

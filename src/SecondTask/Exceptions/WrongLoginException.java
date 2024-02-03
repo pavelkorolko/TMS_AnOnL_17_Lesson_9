@@ -1,2 +1,8 @@
-package SecondTask.Exceptions;public class WrongLoginException {
+package SecondTask.Exceptions;
+
+public class WrongLoginException extends Exception {
+    public WrongLoginException(){}
+    public WrongLoginException(String message) {
+        super(message);
+    }
 }

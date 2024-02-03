@@ -1,7 +1,7 @@
-package Interfaces;
+package FirstTask.Interfaces;
 
 
-import Documents.Document;
+import FirstTask.Documents.Document;
 
 public interface IPrinterable {
     String getInfo(Document document);

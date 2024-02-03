@@ -1,9 +1,9 @@
-package Services;
+package FirstTask.Services;
 
-import Documents.Document;
-import Exceptions.ABCSequenceException;
-import Exceptions.FivesSequenceException;
-import Interfaces.IRegister;
+import FirstTask.Documents.Document;
+import FirstTask.Exceptions.ABCSequenceException;
+import FirstTask.Exceptions.FivesSequenceException;
+import FirstTask.Interfaces.IRegister;
 
 public class Register implements IRegister {
     Document[] documents;
